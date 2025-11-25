@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #769bff;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    gap: 30px; 
+    margin-right: 100px;
+}
+
+header h1, header h5 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.remark {
+    display: flex;
+    background-color: #5682fa;
+    border-radius: 20%;
+}
