@@ -1,6 +1,8 @@
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <link rel="stylesheet" href="/css/styles.css">
-    <header>
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+<link rel="stylesheet" href="/css/styles.css">
+<header>
+    <div class="container">
+
         <div class="title">
             <a href="index.html">
                 <h1>MusiCR</h1>
@@ -9,13 +11,24 @@
         </div>
         
         <nav>
-            <a href="artistas.html">Artistas/Bandas</a>
-            <a href="albumes.html">Álbumes</a>
-            <a href="generos.html">Géneros</a>
-            <a href="noticias.html">Noticias</a>
-            <a href="listas.html">Listas</a>
-            <a href="foro.html">Foro</a>
-            <a href="perfil.html">Perfil</a>
+            <ul>
+                <li><a href="artistas.html">Artistas/Bandas</a></li>
+                <li><a href="albumes.html">Álbumes</a></li>
+                <li><a href="generos.html">Géneros</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="foro.html">Foro</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+            </ul>
         </nav>
 
-    </header>
+        <form action="/buscar" class="busqueda" method="GET" role="search">
+            <input type="search" id="q" name="q" placeholder="Encuentra Artistas, Bandas, Géneros..." required>
+            <button type="submit" aria-label="Buscar">
+                Ir
+            </button>
+        </form>
+
+    </div>
+
+</header>
